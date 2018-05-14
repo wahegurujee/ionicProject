@@ -1,3 +1,70 @@
-page-home {
+    home-page{
+        rectangle {
+        background-color: #303030;
+        padding: 5px 10px;
+        color:#1792E5;
+        font-size: large;
+    }
+    light-font{
+        font-family: 'Open Sans Condensed', sans-serif;
+        /* font-family: 'Raleway', sans-serif; */
+        font-weight: 100;
+        font-size: 15px;
+    }
+    light-font-world{
+        font-family: 'Open Sans Condensed', sans-serif;
+        /* font-family: 'Raleway', sans-serif; */
+        font-weight: 100;
+        font-size: 18px;
+    }
+    overlap{
+        font-size: 2.3em;
+    }
+    high-pixels {
+        font-size: 50px;
+     }
+    
+    
+    
+    @media only screen and (min-width: 3000px) and (max-width: 4000px) {
+        high-pixels {
+           font-size: 90px;
+        }
+        small{
+            font-size: 40px;
+        }
+        rectangle{
+            font-size: 50px;
+        }
+      
+    }
+    
+    
+    @media only screen and (min-width: 760px) and (max-width: 1025px)
+    {
+        .min-view {
+            font-size: 12px;
+           
+        }
+        .subHeader{
+            font-size: 26px;
+        }
+        .high-pixels {
+            display: inline-flex;
+            font-size: 27px;
+         }
+    }
+    @media only screen and (min-width: 760px) and (max-width: 900px)
+    {
+        .subHeader{
+            font-size: 18px;
+            position: relative;
+            left: 50px;
+        }
+        .high-pixels {
+            display: inline-flex;
+            font-size: 27px;
+         }
+    }
 
-}
+    }

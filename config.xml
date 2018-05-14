@@ -86,4 +86,5 @@
         <variable name="CHANNEL_NAME" value="Master" />
         <variable name="UPDATE_METHOD" value="background" />
     </plugin>
+    <plugin name="cordova-plugin-battery-status" spec="^2.0.2" />
 </widget>
